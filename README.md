@@ -45,7 +45,7 @@
             <td>Monitors overall air quality and detects harmful gases that may indicate unsafe environmental conditions.</td>
         </tr>
         <tr>
-            <td><strong>MAX30105</strong></td>
+            <td><strong>MAX30102</strong></td>
             <td>Health Monitoring</td>
             <td>Heart Rate (BPM), Pulse Signal, Estimated Respiratory Rate</td>
             <td>Monitors the user's physiological condition and provides health-related information that may indicate fatigue, stress, or respiratory issues.</td>
