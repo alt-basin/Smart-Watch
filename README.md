@@ -16,6 +16,7 @@
 
  ### HardWare Overview:
   #### Electronics:
+  *Sensors:*
   <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <thead>
         <tr style="background-color: #1a1a2e; color: white;">
