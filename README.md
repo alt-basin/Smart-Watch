@@ -134,7 +134,7 @@
 </table>
 
  *Power supply and control components:*
- <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <thead>
         <tr style="background-color: #1a1a2e; color: white;">
             <th>Component</th>
@@ -145,22 +145,28 @@
     </thead>
     <tbody>
         <tr>
-            <td><strong>Adafruit 2.0" 320×240 Color IPS TFT Display</strong></td>
+            <td><strong>ESP32-C3-DEVKITM-1</strong></td>
+            <td>Microcontroller Unit (MCU)</td>
+            <td>32-bit RISC-V processor, Wi-Fi, Bluetooth Low Energy (BLE), GPIO, SPI, I²C, UART, ADC, 4 MB Flash</td>
+            <td>Serves as the main controller of the system by collecting sensor data, processing information, controlling peripherals, and managing communication between all hardware components.</td>
+        </tr>
+        <tr>
+            <td><strong>Adafruit 2.0 Color IPS TFT Display</strong></td>
             <td>Visual Display</td>
             <td>320×240 IPS LCD, full-color graphics, SPI interface, wide viewing angles</td>
-            <td>Displays real-time sensor readings, system status, warnings, notifications, and the user interface.</td>
+            <td>Displays real-time sensor readings, battery status, system alerts, menus, and other information for the user.</td>
         </tr>
         <tr>
             <td><strong>MINI560</strong></td>
             <td>Power Regulation</td>
-            <td>High-efficiency DC-DC buck converter, converts higher input voltage to a stable 5 V output</td>
-            <td>Provides a stable power supply to the microcontroller and other electronic components while improving overall power efficiency.</td>
+            <td>High-efficiency DC-DC buck converter, stable 5 V output, compact design</td>
+            <td>Converts battery voltage into a stable power supply for the ESP32-C3 and other electronic components while maximizing power efficiency.</td>
         </tr>
         <tr>
             <td><strong>TP4056</strong></td>
             <td>Battery Charging</td>
-            <td>Single-cell Li-ion/Li-Po charging, constant-current/constant-voltage (CC/CV) charging, overcharge protection (protected versions)</td>
-            <td>Safely charges the rechargeable battery and manages the charging process to ensure reliable portable operation.</td>
+            <td>Single-cell Li-ion/Li-Po charging, CC/CV charging, overcharge protection (protected versions)</td>
+            <td>Safely charges the rechargeable lithium battery and manages the charging process for reliable portable operation.</td>
         </tr>
     </tbody>
 </table>
