@@ -14,6 +14,8 @@
 
      - **G.U.A.R.D.** is intended for use in mining operations, factories, industrial facilities, construction sites, warehouses, and other hazardous workplaces where    monitoring air quality, detecting harmful gases, and maintaining environmental awareness are essential for worker safety.
 
+---
+
  ### HardWare Overview:
   #### Electronics:
   *Sensors:*
@@ -218,7 +220,11 @@
 </tr>
 </table>
 
+**SCHEMATIC:**
 
+  <img width="1007" height="737" alt="Screenshot 2026-07-10 175056" src="https://github.com/user-attachments/assets/8ea345c5-a3d6-4d8f-b1fc-2ff30036b934" />
+
+- im too lazy to say the connections, please excuse me.
 
 
 
