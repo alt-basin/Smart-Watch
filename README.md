@@ -22,109 +22,54 @@
   <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <thead>
         <tr style="background-color: #1a1a2e; color: white;">
-            <th>Sensor</th>
-            <th>Primary Detection</th>
+            <th>Component</th>
+            <th>Primary Function</th>
             <th>Detectable Parameters</th>
             <th>Main Purpose in G.U.A.R.D.</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td><strong>MQ-2</strong></td>
+            <td><strong>TGS2611</strong></td>
             <td>Combustible Gas Detection</td>
-            <td>LPG, Propane, Methane, Hydrogen, Smoke, and other flammable gases</td>
-            <td>Detects combustible gas leaks and smoke to help prevent fires and explosions.</td>
+            <td>Methane (CH₄), Natural Gas</td>
+            <td>Detects combustible gas leaks to provide early warning against fire and explosion hazards in industrial environments.</td>
         </tr>
         <tr>
-            <td><strong>MQ-7</strong></td>
-            <td>Carbon Monoxide (CO) Detection</td>
+            <td><strong>ZE07-CO</strong></td>
+            <td>Carbon Monoxide Detection</td>
             <td>Carbon Monoxide (CO)</td>
-            <td>Monitors carbon monoxide levels to help protect users from CO poisoning in hazardous environments.</td>
+            <td>Continuously monitors carbon monoxide concentration and alerts the user when dangerous CO levels are detected.</td>
         </tr>
         <tr>
-            <td><strong>MQ-135</strong></td>
+            <td><strong>ENS160 + AHT21</strong></td>
             <td>Air Quality Monitoring</td>
-            <td>Ammonia (NH₃), Nitrogen Oxides (NOₓ), Benzene, Alcohol, Smoke, and other volatile compounds</td>
-            <td>Monitors overall air quality and detects harmful gases that may indicate unsafe environmental conditions.</td>
+            <td>TVOC, eCO₂, AQI, Temperature, Humidity</td>
+            <td>Measures indoor air quality, volatile organic compounds, temperature, and humidity to help identify unhealthy environmental conditions.</td>
         </tr>
         <tr>
             <td><strong>MAX30102</strong></td>
             <td>Health Monitoring</td>
-            <td>Heart Rate (BPM), Pulse Signal, Estimated Respiratory Rate</td>
-            <td>Monitors the user's physiological condition and provides health-related information that may indicate fatigue, stress, or respiratory issues.</td>
+            <td>Heart Rate (BPM), Blood Oxygen Saturation (SpO₂), Pulse Signal</td>
+            <td>Monitors the user's vital signs to assess physiological condition and detect potential health risks caused by hazardous gases.</td>
         </tr>
         <tr>
-            <td><strong>DHT11</strong></td>
-            <td>Environmental Monitoring</td>
-            <td>Temperature and Humidity</td>
-            <td>Measures ambient temperature and humidity to provide additional environmental data and improve situational awareness.</td>
+            <td><strong>Mini DS3231 RTC</strong></td>
+            <td>Real-Time Clock</td>
+            <td>Time, Date</td>
+            <td>Maintains accurate timekeeping for displaying the current time, timestamping sensor readings, and preserving time during power interruptions using its backup battery.</td>
+        </tr>
+        <tr>
+            <td><strong>MINI560 Pro</strong></td>
+            <td>Power Regulation</td>
+            <td>Input Voltage, Regulated Output Voltage</td>
+            <td>Efficiently steps down the battery voltage to provide a stable power supply for the ESP32-C3 and all connected sensors, improving reliability and battery efficiency.</td>
         </tr>
     </tbody>
 </table>
 
 *Sensor Function:*
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-    <tr>
-        <td>
-<strong>MQ-2</strong>
 
-- A semiconductor gas sensor that detects combustible gases and smoke. It uses a heated <strong>tin dioxide (SnO₂)</strong> sensing element whose electrical resistance changes when exposed to flammable gases such as LPG, methane, propane, hydrogen, and smoke. These changes are converted into an electrical signal that can be read by a microcontroller to monitor gas concentration and provide early warnings of <strong>potential hazards.</strong>
-        </td>
-        <td width="280" align="center">
-            <img src="https://github.com/user-attachments/assets/267966ba-e691-44c7-b545-7115decc8394"
-                 width="250"
-                 alt="MQ-2 Sensor">
-        </td>
-    </tr>
-    <tr>
-        <td>
-<strong>MQ-7</strong>
-
-- A semiconductor gas sensor specifically designed to detect <strong>carbon monoxide (CO)</strong>. It uses a heated <strong>tin dioxide (SnO₂)</strong> sensing element whose electrical resistance changes when exposed to carbon monoxide. These changes are converted into an electrical signal that can be read by a microcontroller to monitor CO concentration and provide early warnings of potentially dangerous carbon monoxide levels.
-        </td>
-        <td width="280" align="center">
-            <img src="https://github.com/user-attachments/assets/09e58c86-2501-47d1-b56d-2e340519e270"
-                 width="250"
-                 alt="MQ-7 Sensor">
-        </td>
-    </tr>
-    <tr>
-        <td>
-<strong>MQ-137</strong>
-
-- A semiconductor gas sensor specifically designed to detect <strong>ammonia (NH₃)</strong>. It uses a heated <strong>tin dioxide (SnO₂)</strong> sensing element whose electrical resistance changes when exposed to ammonia gas. These changes are converted into an electrical signal that can be read by a microcontroller to monitor ammonia concentration and provide early warnings of potentially hazardous conditions.
-        </td>
-        <td width="280" align="center">
-            <img width="250"
-                 src="https://github.com/user-attachments/assets/b34b21a6-3fe8-4115-bd6e-39586fbdfb1c"
-                 alt="MQ-137 Sensor" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-<strong>MAX30102</strong>
-
-- A biometric sensor designed to measure <strong>heart rate (BPM)</strong> and <strong>blood oxygen saturation (SpO₂)</strong>. It uses red and infrared LEDs along with a photodetector to measure changes in blood flow beneath the skin. These optical signals are processed by a microcontroller to monitor the wearer's physiological condition and provide real-time health information.
-        </td>
-        <td width="280" align="center">
-            <img width="250"
-                 src="https://github.com/user-attachments/assets/e363d19c-1896-4f6f-8975-e53f097238be"
-                 alt="MAX30102 Sensor" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-<strong>DHT11</strong>
-
-- A digital temperature and humidity sensor that measures the ambient temperature and relative humidity of the surrounding environment. It uses a capacitive humidity sensor and a thermistor to collect data, then transmits the measurements as a digital signal to a microcontroller. This allows the system to monitor environmental conditions and provide additional information for workplace safety.
-        </td>
-        <td width="280" align="center">
-            <img width="250"
-                 src="https://github.com/user-attachments/assets/07dd2d53-9298-465c-88bb-b0b991cb68b0"
-                 alt="DHT11 Sensor" />
-        </td>
-    </tr>
-</table>
 
  *Power supply and control components:*
 <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
