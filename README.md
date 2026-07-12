@@ -222,7 +222,7 @@
 
 **SCHEMATIC:**
 
-  <img width="1007" height="737" alt="Screenshot 2026-07-10 175056" src="https://github.com/user-attachments/assets/8ea345c5-a3d6-4d8f-b1fc-2ff30036b934" />
+  <img width="755" height="738" alt="Screenshot 2026-07-12 160339" src="https://github.com/user-attachments/assets/fa56c67b-fefd-40e7-949e-3cfe25ee0b6b" />
 
 - im too lazy to say the connections, please excuse me.
 
