@@ -59,12 +59,6 @@
             <td>Time, Date</td>
             <td>Maintains accurate timekeeping for displaying the current time, timestamping sensor readings, and preserving time during power interruptions using its backup battery.</td>
         </tr>
-        <tr>
-            <td><strong>MINI560 Pro</strong></td>
-            <td>Power Regulation</td>
-            <td>Input Voltage, Regulated Output Voltage</td>
-            <td>Efficiently steps down the battery voltage to provide a stable power supply for the ESP32-C3 and all connected sensors, improving reliability and battery efficiency.</td>
-        </tr>
     </tbody>
 </table>
 
@@ -93,12 +87,6 @@
             <td>Visual Display</td>
             <td>320×240 IPS LCD, full-color graphics, SPI interface, wide viewing angles</td>
             <td>Displays real-time sensor readings, battery status, system alerts, menus, and other information for the user.</td>
-        </tr>
-        <tr>
-            <td><strong>MINI560</strong></td>
-            <td>Power Regulation</td>
-            <td>High-efficiency DC-DC buck converter, stable 5 V output, compact design</td>
-            <td>Converts battery voltage into a stable power supply for the ESP32-C3 and other electronic components while maximizing power efficiency.</td>
         </tr>
         <tr>
             <td><strong>TP4056</strong></td>
@@ -137,18 +125,6 @@
               height="250"
               src="https://github.com/user-attachments/assets/45c601e4-bc0c-4781-8585-5d0cab17e56d"
               alt="Adafruit 2.0&quot; 320×240 Color IPS TFT Display" />
-        </td>
-    </tr>
-    <tr>
-        <td>
-<strong>MINI560</strong>
-
-- A compact, high-efficiency DC-DC buck (step-down) voltage converter designed to provide a stable power supply for electronic systems. It converts a higher input voltage from the rechargeable battery into a regulated output voltage suitable for powering the ESP32-C3, display, and other components. Its high conversion efficiency minimizes power loss, reduces heat generation, and helps extend the operating time of the G.U.A.R.D. system.
-    </td>
-        <td width="280" align="center">
-        <img width="250"
-             src="https://github.com/user-attachments/assets/e459525f-19c8-4561-8280-aa1aac8de0c2"
-             alt="MINI560 DC-DC Buck Converter" />
         </td>
     </tr>
     <tr>
