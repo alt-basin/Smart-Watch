@@ -143,9 +143,9 @@
 
 **SCHEMATIC:**
 
-  <img width="755" height="738" alt="Screenshot 2026-07-12 160339" src="https://github.com/user-attachments/assets/fa56c67b-fefd-40e7-949e-3cfe25ee0b6b" />
-
-- im too lazy to say the connections, please excuse me.
+<img width="567" height="728" alt="Screenshot 2026-07-13 210535" src="https://github.com/user-attachments/assets/eb3cc2ca-a93f-46ca-a34b-07f00ae555fc" />
+  
+- im too lazy to say the connections.
 
 
 
